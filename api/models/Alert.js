@@ -14,6 +14,13 @@ module.exports = {
   	nickname: 'string'
   	*/
     
+    lat	: 'STRING',
+
+
+    long	: 'STRING',
+
+
+    date	: 'DATETIME'
   }
 
 };
