@@ -37,7 +37,7 @@ module.exports.adapters = {
     database: 'YOUR_MYSQL_DB'
   },
   mongo: {
-
+    /* Heroku - MONGOHQ_URL */
     module    : 'sails-mongo',
     host      : 'localhost',
     port      : 27017,

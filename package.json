@@ -2,7 +2,7 @@
     "name": "rangerdanger",
     "private": true,
     "version": "0.0.0",
-    "description": "a Sails application",
+    "description": "An AngularJS application with NodeJS/Sails on the backend",
     "dependencies": {
         "sails": "0.9.8",
         "grunt": "0.4.1",
@@ -16,6 +16,6 @@
     },
     "main": "app.js",
     "repository": "",
-    "author": "",
+    "author": "Ken Downey",
     "license": ""
 }
