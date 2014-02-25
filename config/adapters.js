@@ -39,10 +39,13 @@ module.exports.adapters = {
   mongo: {
     /* Heroku - MONGOHQ_URL */
     module    : 'sails-mongo',
+    url      : process.env.MONGOHQ_URL
+    /*
     host      : 'localhost',
     port      : 27017,
     username  : '',
     password  : '',
     database  : 'rangerdanger',
+    */
   }
 };
