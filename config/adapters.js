@@ -39,7 +39,7 @@ module.exports.adapters = {
   mongo: {
     /* Heroku - MONGOHQ_URL */
     module    : 'sails-mongo',
-    url      : MONGOHQ_URL || 'mongodb://troup.mongohq.com:10027/app22504694',
+    url      : 'mongodb://heroku_app22504694:lhd9ne3lgildpiqut5fauij7p4@ds033679.mongolab.com:33679/heroku_app22504694',
     /*
     host      : 'localhost',
     port      : 27017,
