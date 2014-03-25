@@ -9,15 +9,15 @@
 module.exports = {
 
   attributes: {
-  	
+
   	/* e.g.
   	nickname: 'string'
   	*/
-    
+
     lat	: 'STRING',
 
 
-    long	: 'STRING',
+    lng	: 'STRING',
 
 
     date	: 'DATETIME'
