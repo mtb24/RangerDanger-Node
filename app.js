@@ -1,4 +1,3 @@
-require('newrelic');
 
 /* nodetime logging */
 if(process.env.NODETIME_ACCOUNT_KEY) {
