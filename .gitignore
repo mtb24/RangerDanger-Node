@@ -37,9 +37,10 @@ npm-debug.log
 .netbeans
 nbproject
 .idea
-
+ios-deploy.txt
 
 ########################
 # local config
 ########################
 config/local.js
+
