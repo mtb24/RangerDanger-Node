@@ -4,12 +4,12 @@
     "version": "0.1.0",
     "description": "An AngularJS application with NodeJS/Sails on the backend",
     "dependencies": {
-        "sails": "~0.9.16",
+        "sails": "~0.9.x",
         "grunt": "0.4.1",
-        "sails-disk": "~0.9.16",
+        "sails-disk": "~0.9.x",
         "ejs": "0.8.4",
         "optimist": "0.3.4",
-        "sails-mongo":"~0.9.16",
+        "sails-mongo":"~0.9.x",
         "mongodb": "1.3.x"
     },
     "scripts": {
