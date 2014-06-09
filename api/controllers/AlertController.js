@@ -16,7 +16,22 @@
  */
 
 module.exports = {
-    
+
+    subscribeToAlerts: function(req, res){
+    	var room = req.param('roomName');
+    	sails.sockets.join(req, room);
+    	res.json({
+    		message: 'Subscribed to '+room+'!'
+    	});
+    },
+    broadcastAlert: function(req, res){
+    	var room = req.param('roomName');
+    	var alert = req.param('alert');
+    	sails.sockets.broadcast(room, 'alert', alert, req.socket);
+    	res.json({
+    		message: 'Alert sent!'
+    	});
+    }
   
 
 
