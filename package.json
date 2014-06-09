@@ -4,6 +4,7 @@
     "version": "0.1.0",
     "description": "An AngularJS application with NodeJS/Sails on the backend",
     "dependencies": {
+        "node": "~0.10.28",
         "sails": "~0.9.x",
         "grunt": "0.4.1",
         "sails-disk": "~0.9.x",
