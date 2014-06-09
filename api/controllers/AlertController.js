@@ -32,14 +32,12 @@ module.exports = {
     		message: 'Alert sent!'
     	});
     }
-  
 
 
   /**
    * Overrides for the settings in `config/controllers.js`
    * (specific to AlertController)
    */
-  _config: {}
+  //_config: {}
 
-  
 };
