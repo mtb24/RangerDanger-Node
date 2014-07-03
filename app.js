@@ -1,2 +1,4 @@
 // Start sails and pass it command line arguments
-require('sails').lift(require('optimist').argv);
+var app = require('sails');
+var io = require('socket.io').listen(app, {origins: '*:*', log: false});
+app.lift(require('optimist').argv);
