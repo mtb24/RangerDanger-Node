@@ -3,6 +3,9 @@
     "private": true,
     "version": "0.1.0",
     "description": "An AngularJS application with NodeJS/Sails on the backend",
+    "engines": {
+        "node": "8.1.x"
+    },
     "dependencies": {
         "sails": "~0.9.x",
         "grunt": "0.4.1",
